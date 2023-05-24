@@ -1,0 +1,144 @@
+* {
+    padding: 0px;
+}
+
+.navbar {
+    background-color: RGB(255, 194, 52);
+    
+}
+
+#containercolor {
+    background-color: RGB(255, 194, 52);
+    
+}
+
+.logo {
+    margin-top: 10vh;
+}
+
+.logo h2 {
+    font-size: 13vh;
+}
+
+.logo h3 {
+    font-size: 7vh;
+}
+
+.logo h4 {
+    font-size: 2vh;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: RGB(65, 31, 9);
+
+}
+
+.logo h2,h3,h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: RGB(65, 31, 9);
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.preco {
+    position: absolute;
+    bottom: 0px;
+    margin-right: 25vh;
+
+}
+
+.delivery {
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.cards {
+    padding-top: 6vh;
+}
+
+.subtitulo {
+    background-color: RGB(255, 194, 52);
+    margin: 10px auto 1em auto;
+    width: 25vh;
+    height: 3vh;
+    border-radius: 5px;
+    border-width: 1px solid #000;
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+}
+.infos-titulo h2{
+    font-size: 5vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.lanches-titulo{
+    padding: 5vh;
+}
+
+.lanches-cards{
+    padding: 10vh;
+}
+
+.card a{
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+}
+
+.btn:hover{
+    background-color: rgb(148, 28, 28);
+}
+
+.infos{
+    padding-left: 40vh;
+    padding-right: 40vh;
+    padding-bottom: 10vh;
+
+}
+
+.reserva h4{
+    font-weight: bold;
+    font-size: 5vh;
+}
+
+.reserva button{
+    background-color: red;
+    border: none;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.reserva-form input{
+    background-color: RGB(255, 194, 52);
+    height: 40px;
+    width: 300px;
+    margin: 5px;
+}
+
+.reserva-form input:hover{
+    background-color: rgb(255, 217, 92);
+}
+
+.reserva-form input:selection{
+    background-color: blue;
+}
+.reserva-form column{
+    padding: 20vh;
+}
+
+#fundofooter {
+    background: url(../img/rodape/fundo.png) center center/cover no-repeat;
+
+
+}
+
+.footer-fundo{
+    color: aliceblue;
+}
